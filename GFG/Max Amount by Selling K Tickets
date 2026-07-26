@@ -1,0 +1,17 @@
+class Solution {
+  public:
+    int maxAmount(vector<int>& arr, int k) {
+        // code here
+        const int mod = 1000000007;
+        long long ans = 0;
+        priority_queue<int> pq;
+        for(int x : arr) pq.push(x);
+        while(k-- && pq.size() > 0){
+            int x = pq.top();
+            pq.pop();
+            ans = (ans + x) % mod;
+            if(x > 1) pq.push(x - 1);
+        }
+        return ans;
+    }
+};
