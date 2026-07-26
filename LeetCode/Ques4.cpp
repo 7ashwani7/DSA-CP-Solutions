@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& v1, vector<int>& v2) {
@@ -24,3 +26,6 @@ public:
         return med;
     }
 };
+int main() {
+    return 0;
+}
