@@ -1,4 +1,7 @@
-/* Structure of linked list Node
+
+#include <bits/stdc++.h>
+using namespace std;
+/* Structure of linked list Node */
 class Node {
 public:
     int data;
@@ -9,8 +12,6 @@ public:
         next = nullptr;
     }
 };
-*/
-
 class Solution {
 public:
 
@@ -49,3 +50,6 @@ public:
         return reverseList(head);
     }
 };
+int main() {
+    return 0;
+}
