@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     void rearrange(vector<int> &arr) {
@@ -21,3 +23,6 @@ public:
         while(ne < neg.size()) arr[i++] = neg[ne++];
     }
 };
+int main() {
+    return 0;
+}

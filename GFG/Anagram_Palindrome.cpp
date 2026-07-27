@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     bool canFormPalindrome(string &s) {
@@ -15,3 +17,6 @@ class Solution {
         return (odd > 1) ? false : true; 
     }
 };
+int main() {
+    return 0;
+}

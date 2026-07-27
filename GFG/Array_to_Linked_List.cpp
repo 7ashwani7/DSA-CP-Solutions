@@ -1,5 +1,6 @@
-/*
-// Representation of a node
+#include <bits/stdc++.h>
+using namespace std;
+// Representation of a node//
 class Node {
 public:
     int data;
@@ -10,8 +11,6 @@ public:
         next = NULL;
     }
 };
-*/
-
 class Solution {
   public:
     Node* arrayToList(vector<int>& arr) {
@@ -31,3 +30,6 @@ class Solution {
         
     }
 };
+int main() {
+    return 0;
+}
