@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -13,3 +15,6 @@ public:
         
     }
 };
+int main() {
+    return 0;
+}
