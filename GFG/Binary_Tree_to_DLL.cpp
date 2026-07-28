@@ -1,4 +1,6 @@
-/* Structure for tree and linked list
+#include <bits/stdc++.h>
+using namespace std;
+/* Structure for tree and linked list */
 class Node {
   public:
     int data;
@@ -15,7 +17,7 @@ class Node {
         , left(NULL)
         , right(NULL) {}
 };
- */
+
 
 // This function should return head to the DLL
 class Solution {
@@ -42,3 +44,6 @@ class Solution {
         return head;
     }
 };
+int main() {
+    return 0;
+}
