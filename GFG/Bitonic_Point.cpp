@@ -1,4 +1,7 @@
 // User function template for C++
+#include <bits/stdc++.h>
+using namespace std;
+// User function template for C++
 class Solution {
   public:
     int findMaximum(vector<int> &arr) {
@@ -12,3 +15,6 @@ class Solution {
         return arr[n-1];
     }
 };
+int main() {
+    return 0;
+}

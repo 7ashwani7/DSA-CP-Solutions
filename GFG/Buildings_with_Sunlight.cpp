@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int visibleBuildings(vector<int>& arr) {
@@ -15,3 +17,6 @@ class Solution {
         return ans;
     }
 };
+int main() {
+    return 0;
+}

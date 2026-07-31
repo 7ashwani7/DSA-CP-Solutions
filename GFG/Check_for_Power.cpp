@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool isPower(int x, int y) {
@@ -21,3 +23,6 @@ public:
         return power == y;
     }
 };
+int main() {
+    return 0;
+}
