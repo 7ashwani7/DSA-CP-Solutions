@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     void generate( vector<string>& ans, string s, int open, int close, int n){
@@ -15,3 +17,6 @@ public:
        return ans; 
     }
 };
+int main() {
+    return 0;
+}
