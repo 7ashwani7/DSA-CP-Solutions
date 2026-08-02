@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int derangeCount(int n) {
@@ -29,3 +31,6 @@ public:
         return (n - 1) * (derangeCount(n - 1) + derangeCount(n - 2));
     }
 };
+int main() {
+    return 0;
+}

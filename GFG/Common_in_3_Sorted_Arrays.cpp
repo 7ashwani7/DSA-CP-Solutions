@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> commonElements(vector<int> &a, vector<int> &b, vector<int> &c) {
@@ -29,3 +31,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}

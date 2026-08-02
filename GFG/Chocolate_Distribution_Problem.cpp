@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int findMinDiff(vector<int>& a, int m) {
@@ -16,3 +18,6 @@ class Solution {
         
     }
 };
+int main() {
+    return 0;
+}
