@@ -1,4 +1,5 @@
-/* Link list Node
+#include <bits/stdc++.h>
+using namespace std;
 struct Node
 {
     int data;
@@ -10,7 +11,6 @@ struct Node
     }
 
 };
-*/
 class Solution {
   public:
     bool isCircular(Node *head) {
@@ -26,3 +26,6 @@ class Solution {
         return false;
     }
 };
+int main() {
+    return 0;
+}
