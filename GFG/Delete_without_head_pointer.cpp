@@ -1,4 +1,4 @@
-/* Structure of linked list Node
+#include <bits/stdc++.h>
 class Node {
   public:
     int data;
@@ -9,7 +9,6 @@ class Node {
         next = nullptr;
     }
 };
-*/
 class Solution {
   public:
     void deleteNode(Node* del_node) {
@@ -18,3 +17,6 @@ class Solution {
         del_node->next = del_node->next->next;
     }
 };
+int main() {
+    return 0;
+}
