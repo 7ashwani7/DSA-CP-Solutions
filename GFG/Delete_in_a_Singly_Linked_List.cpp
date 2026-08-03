@@ -1,4 +1,5 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
 class Node {
 public:
     int data;
@@ -8,7 +9,6 @@ public:
         this->next = nullptr;
     }
 };
-*/
 class Solution {
   public:
     Node* deleteNode(Node* head, int x) {
@@ -35,3 +35,6 @@ class Solution {
         return head;
     }
 };
+int main() {
+    return 0;
+}

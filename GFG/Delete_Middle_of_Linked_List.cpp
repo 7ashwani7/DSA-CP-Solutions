@@ -1,5 +1,5 @@
-/* Link list Node:
-
+#include <bits/stdc++.h>
+using namespace std;
 struct Node
 {
     int data;
@@ -10,9 +10,6 @@ struct Node
         next = NULL;
     }
 };
-
-*/
-
 // Deletes middle of linked list and returns head of the modified list
 class Solution {
   public:
@@ -31,3 +28,6 @@ class Solution {
         return head;
     }
 };
+int main() {
+    return 0;
+}
