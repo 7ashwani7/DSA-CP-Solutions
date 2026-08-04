@@ -1,4 +1,5 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
 class Node {
    public:
     int data;
@@ -8,8 +9,7 @@ class Node {
         data = x;
         next = NULL;
     }
-} */
-
+};
 class Solution {
   public:
     bool detectLoop(Node* head) {
@@ -25,3 +25,6 @@ class Solution {
         return false;
     }
 };
+int main() {
+    return 0;
+}
