@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     bool checkElements(int start, int end, vector<int> &arr) {
@@ -10,3 +12,6 @@ class Solution {
         return (end-start+1)==count;
     }
 };
+int main() {
+    return 0;
+}
