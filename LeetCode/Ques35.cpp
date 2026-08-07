@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -13,3 +15,6 @@ public:
         return j+1;
     }
 };
+int main() {
+    return 0;
+}
