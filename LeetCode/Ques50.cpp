@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -25,3 +27,6 @@ public:
         
     }
 };
+int main() {
+    return 0;
+}
