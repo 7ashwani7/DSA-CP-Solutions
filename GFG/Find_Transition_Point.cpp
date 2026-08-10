@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int transitionPoint(vector<int>& arr) {
@@ -11,3 +13,6 @@ class Solution {
         return -1;
     }
 };
+int main() {
+    return 0;
+}

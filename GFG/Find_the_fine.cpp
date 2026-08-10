@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 
 
 class Solution {
@@ -23,3 +25,6 @@ class Solution {
         return sum;
     }
 };
+int main() {
+    return 0;
+}
