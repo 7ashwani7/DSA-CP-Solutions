@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -12,3 +14,6 @@ public:
         return maxSum;
     }
 };
+int main() {
+    return 0;
+}
