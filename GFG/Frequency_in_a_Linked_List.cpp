@@ -1,4 +1,5 @@
-/* Structure of a linked list node
+#include <bits/stdc++.h>
+using namespace std;
 class Node {
   public:
     int data;
@@ -9,7 +10,7 @@ class Node {
         next = nullptr;
     }
 };
-*/
+
 class Solution {
   public:
     int count(Node* head, int key) {
@@ -21,3 +22,6 @@ class Solution {
         return count;
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int firstOccurence(string& txt, string& pat) {
@@ -15,3 +17,6 @@ class Solution {
         return -1;
     }
 };
+int main() {
+    return 0;
+}

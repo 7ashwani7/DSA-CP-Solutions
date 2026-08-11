@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int findFloor(vector<int>& arr, int x) {
@@ -11,3 +13,6 @@ class Solution {
         return idx;
     }
 };
+int main() {
+    return 0;
+}

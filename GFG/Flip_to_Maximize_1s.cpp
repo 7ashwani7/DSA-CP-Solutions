@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int maxOnes(vector<int>& arr) {
@@ -19,3 +21,6 @@ class Solution {
         return count + maxsum;
     }
 };
+int main() {
+    return 0;
+}
