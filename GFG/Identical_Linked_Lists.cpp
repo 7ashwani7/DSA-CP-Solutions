@@ -1,4 +1,5 @@
-/* Strucutre of a Node in linked list
+#include <bits/stdc++.h>
+using namespace std;
 class Node {
 public:
     int data;
@@ -8,7 +9,7 @@ public:
         data = x;
         next = nullptr;
     }
-}; */
+}; 
 class Solution {
   public:
     bool areIdentical(Node *head1, Node *head2) {
@@ -22,3 +23,6 @@ class Solution {
         return (head1 == NULL && head2 == NULL);
     }
 };
+int main() {
+    return 0;
+}
