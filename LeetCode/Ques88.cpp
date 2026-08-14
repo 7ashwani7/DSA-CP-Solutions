@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -16,3 +18,6 @@ public:
      
     }
 };
+int main() {
+    return 0;
+}

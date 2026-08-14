@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -60,3 +62,6 @@ public:
         return mx;
     }
 };
+int main() {
+    return 0;
+}
