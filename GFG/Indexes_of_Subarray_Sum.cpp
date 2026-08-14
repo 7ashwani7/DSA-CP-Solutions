@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     vector<int> subarraySum(vector<int> &arr, int target) {
@@ -23,3 +25,6 @@ class Solution {
         return {-1};
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int findExtra(vector<int>& a, vector<int>& b) {
@@ -14,3 +16,6 @@ class Solution {
         }
     }
 };
+int main() {
+    return 0;
+}
