@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
@@ -17,3 +19,6 @@ public:
         return v[rowIndex];
     }
 };
+int main() {
+    return 0;
+}

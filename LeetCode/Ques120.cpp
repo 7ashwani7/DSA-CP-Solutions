@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& t) {
@@ -11,3 +13,6 @@ public:
         return t[0][0];
     }
 };
+int main() {
+    return 0;
+}

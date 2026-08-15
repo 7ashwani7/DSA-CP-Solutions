@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -16,3 +18,6 @@ public:
         return v;
     }
 };
+int main() {
+    return 0;
+}
