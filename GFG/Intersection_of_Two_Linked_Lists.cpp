@@ -1,4 +1,5 @@
-/* structure of list node:
+#include <bits/stdc++.h>
+using namespace std;
 
 struct Node
 {
@@ -10,9 +11,6 @@ struct Node
         next=NULL;
     }
 };
-
-*/
-
 class Solution {
   public:
     Node* findIntersection(Node* head1, Node* head2) {
@@ -35,3 +33,6 @@ class Solution {
         return ans->next;
     }
 };
+int main() {
+    return 0;
+}

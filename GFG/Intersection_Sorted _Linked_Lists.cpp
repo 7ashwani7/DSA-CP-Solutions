@@ -1,4 +1,5 @@
-/* The structure of the Linked list Node is as follows:
+#include <bits/stdc++.h>
+using namespace std;
 
 struct Node
 {
@@ -10,8 +11,6 @@ struct Node
         next=NULL;
     }
 };
-
-*/
 
 class Solution {
   public:
@@ -36,3 +35,6 @@ class Solution {
         return ans->next;
     }
 };
+int main() {
+    return 0;
+}

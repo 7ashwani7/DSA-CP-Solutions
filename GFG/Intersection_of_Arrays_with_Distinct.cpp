@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int intersectSize(vector<int> &a, vector<int> &b) {
@@ -23,3 +25,6 @@ class Solution {
         return ans.size();
     }
 };
+int main() {
+    return 0;
+}
