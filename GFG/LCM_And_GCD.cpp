@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int gcd(int a, int b){
@@ -16,3 +18,6 @@ class Solution {
        return ans;
     }
 };
+int main() {
+    return 0;
+}

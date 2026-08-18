@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     bool checkDuplicatesWithinK(vector<int>& arr, int k) {
@@ -30,3 +32,6 @@ class Solution {
         return false;
     }
 };
+int main() {
+    return 0;
+}

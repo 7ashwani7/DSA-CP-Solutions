@@ -1,4 +1,5 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
 class Node {
 public:
     int data;
@@ -9,7 +10,6 @@ public:
         next = nullptr;
     }
 };
-*/
 
 class Solution {
   public:
@@ -29,3 +29,6 @@ class Solution {
         return slow->data;
     }
 };
+int main() {
+    return 0;
+}

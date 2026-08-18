@@ -1,4 +1,5 @@
-/*structure of a node of the linked list is as
+#include <bits/stdc++.h>
+using namespace std;
 struct Node
 {
     int data;
@@ -10,7 +11,6 @@ struct Node
     }
 
 };
-*/
 class Solution {
   public:
     bool isEven(struct Node **head) {
@@ -26,3 +26,6 @@ class Solution {
         return (count % 2 == 0);
     }
 };
+int main() {
+    return 0;
+}

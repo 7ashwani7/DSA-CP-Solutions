@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int coin(vector<int>& arr) {
@@ -13,3 +15,6 @@ class Solution {
         return arr[i];
     }
 };
+int main() {
+    return 0;
+}
