@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Solution {
+  public:
+    vector<int> findMajority(vector<int>& nums) {
+        // code here
+        int cand1 = 0, cand2 = 1;
+        int cnt1 = 0, cnt2 = 0;
+        for(int x : nums) {
+            if(x == cand1) cnt1++;
+            else if(x == cand2) cnt2++;
+            else if(cnt1 == 0){
+                cand1 = x;
+                cnt1 = 1;
+            }
+            else if(cnt2 == 0){
+                cand2 = x;
+                cnt2 = 1;
+            }
+            else{
+                cnt1--;
+                cnt2--;
+            }
+        }
+        cnt1 = cnt2 = 0;
+        for(int x : nums){
+            if(x == cand1) cnt1++;
+            else if(x == cand2) cnt2++;
+        }
+        vector<int> ans;
+        if(cand1 < cand2){
+            if(cnt1 > nums.size() / 3) ans.push_back(cand1);
+            if(cnt2 > nums.size() / 3) ans.push_back(cand2);
+        }
+        else{
+            if(cnt2 > nums.size() / 3) ans.push_back(cand2);
+            if(cnt1 > nums.size() / 3) ans.push_back(cand1);
+        }
+        return ans;
+    }
+};
+int main() {
+    return 0;
+}
