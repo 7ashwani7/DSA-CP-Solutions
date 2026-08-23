@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -16,3 +18,6 @@ public:
         return nums[i];
     }
 };
+int main() {
+    return 0;
+}

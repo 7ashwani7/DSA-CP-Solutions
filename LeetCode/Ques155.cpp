@@ -1,15 +1,6 @@
-// T(1) , S(n)
+#include <bits/stdc++.h>
+using namespace std;
 class MinStack {
-public:
-    stack<pair<int,int>> st;
-
-    MinStack() {
-        
-    }
-    
-    void push(int value) {
-        if(st.empty()) st.push({value, value});
-        else st.push({value, min(value, st.top().second)});
 public:
     stack<long long> st;
     long long min;
@@ -46,23 +37,7 @@ public:
     int getMin() {
         return (int)min;
     }
-};    }
-    
-    void pop() {
-        st.pop();
-    }
-    
-    int top() {
-        return st.top().first;
-    }
-    
-    int getMin() {
-        return st.top().second;
-    }
 };
-// T(1) , S(1)
-class MinStack {
-
 
 /**
  * Your MinStack object will be instantiated and called as such:
@@ -72,3 +47,6 @@ class MinStack {
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
+int main() {
+    return 0;
+}
