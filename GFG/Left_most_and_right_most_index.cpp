@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     pair<long, long> indexes(vector<long long> arr , long long x) {
@@ -50,3 +52,6 @@ class Solution {
     }
     
 };
+int main() {
+    return 0;
+}

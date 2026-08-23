@@ -1,5 +1,6 @@
-/*
-Definition for Linked List
+#include <bits/stdc++.h>
+using namespace std;
+
 class Node {
   public:
     int data;
@@ -10,7 +11,6 @@ class Node {
         next = NULL;
     }
 };
-*/
 
 class Solution {
   public:
@@ -24,3 +24,6 @@ class Solution {
         return count;
     }
 };
+int main() {
+    return 0;
+}
