@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int longestSubarrayDivK(vector<int>& arr, int k) {
@@ -25,3 +27,6 @@ class Solution {
         return mx;
     }
 };
+int main() {
+    return 0;
+}

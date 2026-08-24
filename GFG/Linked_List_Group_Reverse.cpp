@@ -1,3 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Node {
+  public:
+    int data;
+    Node* next;
+    Node(int data) {
+        this->data = data;
+        this->next = nullptr;
+    }
+};
+
 class Solution {
 public:
     Node* reverseKGroup(Node* head, int k) {
@@ -23,3 +36,6 @@ public:
         return newHead;
     }
 };
+int main() {
+    return 0;
+}

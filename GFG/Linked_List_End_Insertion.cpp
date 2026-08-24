@@ -1,4 +1,5 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
 class Node {
   public:
     int data;
@@ -8,7 +9,6 @@ class Node {
         this->next = nullptr;
     }
 };
-*/
 class Solution {
   public:
     Node *insertAtEnd(Node *head, int x) {
@@ -26,3 +26,6 @@ class Solution {
         return head;
     }
 };
+int main() {
+    return 0;
+}
