@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int minSubArrayLen(int tar, vector<int>& nums) {
@@ -20,3 +22,6 @@ public:
         return minLen;
     }
 };
+int main() {
+    return 0;
+}
