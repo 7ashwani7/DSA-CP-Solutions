@@ -1,10 +1,10 @@
-/* Structure of the element of the array is as
+#include <bits/stdc++.h>
+using namespace std;
 
 struct Height {
     int feet;
     int inches;
 };
-*/
 
 // function must return the maximum Height
 // return the height in inches
@@ -22,3 +22,6 @@ class Solution {
         return mx;
     }
 };
+int main() {
+    return 0;
+}

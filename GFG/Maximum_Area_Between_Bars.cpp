@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int maxArea(vector<int> &height) {
@@ -15,3 +17,6 @@ class Solution {
         return mx;
     }
 };
+int main() {
+    return 0;
+}

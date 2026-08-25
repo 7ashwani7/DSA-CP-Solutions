@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 // User function template for C++
 class Solution {
   public:
@@ -19,3 +21,6 @@ class Solution {
         return max1 * max2;
     }
 };
+int main() {
+    return 0;
+}

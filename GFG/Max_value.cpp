@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 // User function Template for C++
 
 class Solution {
@@ -16,3 +18,6 @@ class Solution {
         
     }
 };
+int main() {
+    return 0;
+}

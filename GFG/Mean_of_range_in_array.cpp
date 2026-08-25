@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     vector<int> findMean(vector<int> &arr, vector<vector<int>> &queries) {
@@ -18,3 +20,6 @@ class Solution {
         return ans;
     }
 };
+int main() {
+    return 0;
+}
