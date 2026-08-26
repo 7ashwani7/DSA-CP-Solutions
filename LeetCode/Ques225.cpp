@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class MyStack {
 public:
     queue<int> q;
@@ -34,3 +36,6 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
+int main() {
+    return 0;
+}

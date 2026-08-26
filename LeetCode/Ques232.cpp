@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class MyQueue {
 public:
     stack<int> s1, s2;
@@ -40,3 +42,6 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
+int main() {
+    return 0;
+}
