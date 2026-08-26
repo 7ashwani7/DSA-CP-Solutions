@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     double medianOf2(vector<int>& v1, vector<int>& v2) {
@@ -54,3 +56,7 @@ class Solution {
         }
         return 0.0;
     }
+};
+int main() {
+    return 0;
+}

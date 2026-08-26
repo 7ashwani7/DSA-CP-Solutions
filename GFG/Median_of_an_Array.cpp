@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     double findMedian(vector<int> &arr) {
@@ -12,3 +14,6 @@ class Solution {
         return med;
     }
 };
+int main() {
+    return 0;
+}

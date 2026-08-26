@@ -1,4 +1,6 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
+
 class Node {
  public:
     int data;
@@ -9,8 +11,6 @@ class Node {
         next = NULL;
     }
 };
-*/
-
 class Solution {
   public:
     Node* sortedMerge(Node* head1, Node* head2) {
@@ -64,3 +64,6 @@ class Solution {
         return head;
     }
 };
+int main() {
+    return 0;
+}

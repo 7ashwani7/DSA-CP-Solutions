@@ -1,4 +1,6 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
+
 class Node {
   public:
     int data;
@@ -9,7 +11,6 @@ class Node {
         next = NULL;
     }
 };
-*/
 class Solution {
   public:
   
@@ -45,3 +46,6 @@ class Solution {
         return arr[0];
     }
 };
+int main() {
+    return 0;
+}

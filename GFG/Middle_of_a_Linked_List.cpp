@@ -1,15 +1,16 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
+
 class Node {
+  public:
     int data;
     Node* next;
-
     Node(int x){
         data = x;
-        next = nullptr;
+        next = NULL;
     }
 
-}; */
-
+};
 class Solution {
   public:
     int getMiddle(Node* head) {
@@ -23,3 +24,6 @@ class Solution {
         return slow->data;
     }
 };
+int main() {
+    return 0;
+}
