@@ -1,4 +1,5 @@
-/* Linked list node structure
+#include <bits/stdc++.h>
+using namespace std;
 struct Node
 {
     int data;
@@ -9,7 +10,7 @@ struct Node
         next = NULL;
     }
 
-};*/
+};
 
 /*The method multiplies
 two  linked lists l1 and l2
@@ -34,3 +35,6 @@ class solution {
         return (a * b) % MOD;
     }
 };
+int main() {
+    return 0;
+}

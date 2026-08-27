@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int missingNum(vector<int>& arr) {
@@ -11,3 +13,6 @@ class Solution {
         return (sum_all - sum);
     }
 };
+int main() {
+    return 0;
+}

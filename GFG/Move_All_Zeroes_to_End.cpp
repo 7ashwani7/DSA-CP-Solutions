@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     void pushZerosToEnd(vector<int>& arr) {
@@ -15,3 +17,6 @@ class Solution {
          arr[i]=0;
     }
 };
+int main() {
+    return 0;
+}

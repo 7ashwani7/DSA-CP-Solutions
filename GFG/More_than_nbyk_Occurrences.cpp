@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     // Function to find all elements in array that appear more than n/k times.
@@ -19,3 +21,6 @@ class Solution {
         return count;
     }
 };
+int main() {
+    return 0;
+}

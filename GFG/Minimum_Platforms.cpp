@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int minPlatform(vector<int>& arr, vector<int>& dep) {
@@ -22,3 +24,6 @@ class Solution {
         return maxP;
     }
 };
+int main() {
+    return 0;
+}

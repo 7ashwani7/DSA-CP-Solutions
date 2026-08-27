@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int minDist(vector<int>& arr, int x, int y) {
@@ -19,3 +21,6 @@ class Solution {
         return (ans == INT_MAX) ? -1 : ans;
     }
 };
+int main() {
+    return 0;
+}
