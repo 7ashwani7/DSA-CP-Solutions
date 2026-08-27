@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -14,3 +16,6 @@ public:
         
     }
 };
+int main() {
+    return 0;
+}
