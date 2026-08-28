@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<vector<int>> mergeOverlap(vector<vector<int>>& arr) {
@@ -20,3 +22,6 @@ public:
         return r;
     }
 };
+int main() {
+    return 0;
+}

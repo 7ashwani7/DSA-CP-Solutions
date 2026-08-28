@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     int countFreq(vector<int>& arr, int target) {
@@ -11,3 +13,6 @@ class Solution {
         return count;
     }
 };
+int main() {
+    return 0;
+}
