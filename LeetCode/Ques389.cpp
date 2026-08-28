@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     char findTheDifference(string s, string t) {
@@ -19,3 +21,6 @@ public:
         
     }
 };
+int main() {
+    return 0;
+}

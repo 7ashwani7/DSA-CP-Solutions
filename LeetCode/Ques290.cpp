@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
@@ -22,3 +24,6 @@ public:
         return i == pattern.size();
     }
 };
+int main() {
+    return 0;
+}

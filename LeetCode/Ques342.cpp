@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool isPowerOfFour(int n) {
@@ -8,3 +10,6 @@ public:
         return n == 1;  
     }
 };
+int main() {
+    return 0;
+}

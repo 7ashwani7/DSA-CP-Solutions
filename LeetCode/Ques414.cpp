@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -18,3 +20,6 @@ public:
         return third == LONG_MIN ? first : third;
     }
 };
+int main() {
+    return 0;
+}

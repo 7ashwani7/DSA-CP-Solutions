@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool isVowel(char c) {
@@ -24,3 +26,6 @@ public:
         return s;
     }
 };
+int main() {
+    return 0;
+}

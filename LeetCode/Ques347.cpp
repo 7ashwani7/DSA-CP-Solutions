@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -47,3 +49,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}
