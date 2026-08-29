@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -14,3 +16,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}

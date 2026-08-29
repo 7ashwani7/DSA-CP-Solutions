@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int arrangeCoins(int n) {
@@ -13,3 +15,6 @@ public:
         return (int)hi;
     }
 }; 
+int main() {
+    return 0;
+}
