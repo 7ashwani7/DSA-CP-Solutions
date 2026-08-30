@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int fib(int n) {
@@ -35,3 +37,6 @@ public:
         return dp[n];
     }
 };
+int main() {
+    return 0;
+}

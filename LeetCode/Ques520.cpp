@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool detectCapitalUse(string word) {
@@ -10,3 +12,6 @@ public:
         return count == 1 && isupper(word[0]);
     }
 };
+int main() {
+    return 0;
+}
