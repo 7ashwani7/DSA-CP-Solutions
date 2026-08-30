@@ -1,8 +1,5 @@
-/*
-  Pairwise swap a linked list
-  The input list will have at least one element
-  node is defined as
-
+#include <bits/stdc++.h>
+using namespace std;
 struct Node
 {
     int data;
@@ -13,8 +10,7 @@ struct Node
         next = NULL;
     }
 
-}*head;
-*/
+};
 class Solution {
   public:
     Node* pairWiseSwap(Node* head) {
@@ -42,3 +38,6 @@ class Solution {
         return head;
     }
 };
+int main() {
+    return 0;
+}

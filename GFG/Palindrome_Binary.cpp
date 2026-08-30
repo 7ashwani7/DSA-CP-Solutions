@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     bool isBinaryPalindrome(int n) {
@@ -13,3 +15,6 @@ class Solution {
         return original == rev;
     }
 };
+int main() {
+    return 0;
+}

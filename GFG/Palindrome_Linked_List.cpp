@@ -1,4 +1,6 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
+
 class Node {
   public:
     int data;
@@ -8,8 +10,7 @@ class Node {
        data = x;
        next = nullptr;
     }
-};*/
-
+};
 class Solution {
   public:
       Node* reverseList(Node* head) {
@@ -40,3 +41,6 @@ class Solution {
         return  true;
     }
 };
+int main() {
+    return 0;
+}

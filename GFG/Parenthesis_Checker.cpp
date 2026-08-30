@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     bool isBalanced(string& s) {
@@ -18,3 +20,6 @@ class Solution {
         
     }
 };
+int main() {
+    return 0;
+}
