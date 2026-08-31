@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int peakElement(vector<int> &arr) {
@@ -17,3 +19,6 @@ public:
         return i;
     }
 };
+int main() {
+    return 0;
+}
