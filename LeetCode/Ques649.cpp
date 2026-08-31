@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     string predictPartyVictory(string s) {
@@ -18,3 +20,6 @@ public:
         return r.empty() ? "Dire" : "Radiant";
     }
 };
+int main() {
+    return 0;
+}

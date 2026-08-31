@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool isPerfectSquare(int n){
@@ -23,3 +25,6 @@ public:
         return false;
     }
 };
+int main() {
+    return 0;
+}

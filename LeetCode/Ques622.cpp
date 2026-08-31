@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class MyCircularQueue {
 public:
     int f; // front
@@ -63,3 +65,6 @@ public:
  * bool param_5 = obj->isEmpty();
  * bool param_6 = obj->isFull();
  */
+int main() {
+    return 0;
+}
