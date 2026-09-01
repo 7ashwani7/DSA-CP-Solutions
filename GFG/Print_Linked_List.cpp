@@ -1,4 +1,6 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
+
 class Node {
   public:
     int data;
@@ -16,7 +18,6 @@ class Node {
         this->next = NULL;
     }
 };
-*/
 class Solution {
   public:
     vector<int> printList(Node *head) {
@@ -30,3 +31,6 @@ class Solution {
         return ans;
     }
 };
+int main() {
+    return 0;
+}

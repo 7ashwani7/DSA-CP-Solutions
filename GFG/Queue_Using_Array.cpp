@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class myQueue {
     int *arr;
     int front, rear, size, cnt;
@@ -45,3 +47,6 @@ public:
         return arr[rear];
     }
 };
+int main() {
+    return 0;
+}

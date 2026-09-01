@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     vector<int> productExceptSelf(vector<int>& arr) {
@@ -20,3 +22,6 @@ class Solution {
        
     }
 };
+int main() {
+    return 0;
+}

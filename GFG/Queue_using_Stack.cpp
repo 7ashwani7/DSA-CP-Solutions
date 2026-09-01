@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class myQueue {
     stack<int> s1, s2;
 
@@ -36,3 +38,6 @@ class myQueue {
         return s1.size() + s2.size();
     }
 };
+int main() {
+    return 0;
+}
