@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class MyLinkedList {
 public:
 
@@ -133,3 +135,6 @@ public:
  * obj->addAtIndex(index,val);
  * obj->deleteAtIndex(index);
  */
+int main() {
+    return 0;
+}
