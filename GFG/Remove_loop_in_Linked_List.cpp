@@ -1,4 +1,6 @@
-/*
+#include <bits/stdc++.h>
+using namespace std;
+
 class Node {
   public:
     int data;
@@ -9,7 +11,6 @@ class Node {
         next = nullptr;
     }
 };
-*/
 class Solution {
   public:
     void removeLoop(Node* head) {
@@ -51,3 +52,6 @@ class Solution {
         fast->next = NULL;
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     string removeSpaces(string& s) {
@@ -11,3 +13,6 @@ class Solution {
         return ans;
     }
 };
+int main() {
+    return 0;
+}
