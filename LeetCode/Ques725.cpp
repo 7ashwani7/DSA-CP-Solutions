@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
@@ -34,3 +36,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}

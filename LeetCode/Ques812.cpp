@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     double largestTriangleArea(vector<vector<int>>& points) {
@@ -15,3 +17,6 @@ public:
         return maxArea;
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int numJewelsInStones(string jewels, string stones) {
@@ -30,3 +32,6 @@ public:
         
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool rotateString(string s, string goal) {
@@ -19,3 +21,6 @@ public:
         return (s + s).find(goal) != string::npos;
     }
 };
+int main() {
+    return 0;
+}
