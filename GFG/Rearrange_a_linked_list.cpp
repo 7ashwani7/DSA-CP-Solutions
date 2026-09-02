@@ -1,4 +1,5 @@
-/* Node structure
+#include <bits/stdc++.h>
+using namespace std;
 
 struct Node
 {
@@ -10,7 +11,6 @@ struct Node
         next = NULL;
     }
 };
-*/
 
 class Solution {
   public:
@@ -30,3 +30,6 @@ class Solution {
         odd->next = evenHead;
     }
 };
+int main() {
+    return 0;
+}
