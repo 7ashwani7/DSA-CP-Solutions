@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool check(int speed, vector<int>& p, int h){
@@ -33,3 +35,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}
