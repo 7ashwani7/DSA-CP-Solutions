@@ -1,7 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
-    int longestOnes(vector<int>& nums, int k) {
+    int longestSubarray(vector<int>& nums) {
         int n=nums.size();
+        int k=1;    
         int flip=0, i=0, j=0;
         int maxLen=INT_MIN, len=INT_MIN;
         while(j<n){
@@ -22,6 +25,9 @@ public:
         }
         len=j-i;
         maxLen=max(maxLen, len);
-        return maxLen;
+        return maxLen-1;
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     string destCity(vector<vector<string>>& p) {
@@ -14,3 +16,6 @@ public:
         return "";
     }
 };
+int main() {
+    return 0;
+}

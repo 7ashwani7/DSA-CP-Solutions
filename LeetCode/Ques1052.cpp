@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int maxSatisfied(vector<int>& cust, vector<int>& grumpy, int k) {
@@ -32,3 +34,6 @@ public:
         return sum;
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool check(int mid, vector<int>& weights, int days){
@@ -39,3 +41,6 @@ public:
         return min;
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int minPartitions(string n) {
@@ -6,3 +8,6 @@ public:
         return ans; 
     }
 };
+int main() {
+    return 0;
+}

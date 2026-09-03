@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int numberOfMatches(int n) {
@@ -15,3 +17,6 @@ public:
         return sum;
     }
 };
+int main() {
+    return 0;
+}

@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& g) {
@@ -17,3 +19,6 @@ public:
         return res;
     }
 };
+int main() {
+    return 0;
+}
