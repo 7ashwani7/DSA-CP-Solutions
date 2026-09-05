@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     string capitalizeTitle(string title) {
@@ -18,3 +20,6 @@ public:
         return title;
     }
 };
+int main() {
+    return 0;
+}

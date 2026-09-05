@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int countQuadruplets(vector<int>& nums) {
@@ -17,3 +19,6 @@ public:
         return count;
     }
 };
+int main() {
+    return 0;
+}

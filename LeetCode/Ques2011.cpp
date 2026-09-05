@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int finalValueAfterOperations(vector<string>& oper) {
@@ -12,3 +14,6 @@ public:
         return sum;
     }
 };
+int main() {
+    return 0;
+}

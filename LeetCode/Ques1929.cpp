@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> getConcatenation(vector<int>& v) {
@@ -14,3 +16,6 @@ public:
         
     }
 };
+int main() {
+    return 0;
+}

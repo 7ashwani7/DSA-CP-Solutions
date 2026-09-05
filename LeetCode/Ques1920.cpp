@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> buildArray(vector<int>& nums) {
@@ -9,3 +11,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}

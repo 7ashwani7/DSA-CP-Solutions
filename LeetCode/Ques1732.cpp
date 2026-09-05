@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int largestAltitude(vector<int>& gain) {
@@ -10,3 +12,6 @@ public:
         return maxA;
     }
 };
+int main() {
+    return 0;
+}
