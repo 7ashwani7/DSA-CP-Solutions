@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
@@ -17,3 +19,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}

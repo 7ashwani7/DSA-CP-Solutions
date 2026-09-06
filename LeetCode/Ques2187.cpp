@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool check(long long mid, vector<int>& time, int t){
@@ -31,3 +33,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}
