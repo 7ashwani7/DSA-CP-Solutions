@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> answerQueries(vector<int>& nums, vector<int>& queries) {
@@ -29,3 +31,6 @@ public:
 
     }
 };
+int main() {
+    return 0;
+}
