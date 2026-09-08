@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<string> twoEditWords(vector<string>& queries, vector<string>& dictionary) {
@@ -23,3 +25,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}
