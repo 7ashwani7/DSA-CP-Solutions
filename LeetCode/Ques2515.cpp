@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int closestTarget(vector<string>& words, string target, int startIndex) {
@@ -14,3 +16,6 @@ public:
         return (mi == INT_MAX) ? -1 : mi;
     }
 };
+int main() {
+    return 0;
+}

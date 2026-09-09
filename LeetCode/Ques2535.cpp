@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int differenceOfSum(vector<int>& nums) {
@@ -14,3 +16,6 @@ public:
          return abs(diSum - sum);
     }
 };
+int main() {
+    return 0;
+}
