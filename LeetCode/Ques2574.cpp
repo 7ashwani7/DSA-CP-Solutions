@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> leftRightDifference(vector<int>& nums) {
@@ -35,3 +37,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}
