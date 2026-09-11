@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int numberOfEmployeesWhoMetTarget(vector<int>& hours, int target) {
@@ -9,3 +11,6 @@ public:
         return count;
     }
 };
+int main() {
+    return 0;
+}
