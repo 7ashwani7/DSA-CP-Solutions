@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool canBeEqual(string s1, string s2) {
@@ -9,5 +11,8 @@ public:
                return true; 
         }
         return false;
-    }A
+    }
 };
+int main() {
+    return 0;
+}
