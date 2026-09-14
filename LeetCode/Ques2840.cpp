@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool checkStrings(string s1, string s2) {
@@ -24,3 +26,6 @@ public:
         return (even1 == even2) && (odd1 == odd2);
     }
 };
+int main() {
+    return 0;
+}

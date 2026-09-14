@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int differenceOfSums(int n, int m) {
@@ -10,3 +12,6 @@ public:
      return num2-num1;
     }
 };
+int main() {
+    return 0;
+}

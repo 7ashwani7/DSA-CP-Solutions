@@ -7,18 +7,18 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
-        vector<long long> b(n), a(n);
+        vector<long long> b(n);
         for (int i = 0; i < n; i++) {
             cin >> b[i];
         }
         int left = 0;
         int right = n - 1;
         for (int i = 0; i < n; i++) {
-            if (i % 2 == 0) a[left++] = b[i];
-            else a[right--] = b[i];
-        }
-        for (int i = 0; i < n; i++) {
-            cout << a[i] << " ";
+            if (i % 2 == 0) {
+                cout << b[left++] << " ";
+            } else {
+                cout << b[right--] << " ";
+            }
         }
         cout << endl;
     }
