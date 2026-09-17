@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int numberOfSpecialChars(string word) {
@@ -22,3 +24,6 @@ public:
         return ans;
     }
 };
+int main() {
+    return 0;
+}
