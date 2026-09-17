@@ -25,6 +25,6 @@ int main() {
             return 0;
         }
     }
-    cout << "I become the guy!";
+    cout << "I become the guy.";
     return 0;
 }
