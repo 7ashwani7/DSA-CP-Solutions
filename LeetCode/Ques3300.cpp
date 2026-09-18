@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public :
     int digitSum(int n){
@@ -20,3 +22,6 @@ public :
         return mi;
     }
 };
+int main() {
+    return 0;
+}

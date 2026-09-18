@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
@@ -10,3 +12,6 @@ public:
         return oper;
     }
 };
+int main() {
+    return 0;
+}
