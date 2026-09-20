@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool uniformArray(vector<int>& v) {
@@ -13,3 +15,6 @@ public:
         return true;
     }
 };
+int main() {
+    return 0;
+}

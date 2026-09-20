@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int reverseNumber(int x) {
@@ -25,3 +27,6 @@ public:
         return (ans == INT_MAX) ? -1 : ans;
     }
 };
+int main() {
+    return 0;
+}

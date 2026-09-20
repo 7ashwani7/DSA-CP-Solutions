@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> limitOccurrences(vector<int>& nums, int k) {
@@ -13,3 +15,6 @@ public:
         return nums;
     }
 };
+int main() {
+    return 0;
+}
