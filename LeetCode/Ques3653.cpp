@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int xorAfterQueries(vector<int>& nums, vector<vector<int>>& q) {
@@ -20,3 +22,6 @@ public:
         
     }
 };
+int main() {
+    return 0;
+}

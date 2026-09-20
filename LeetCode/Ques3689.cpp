@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     long long maxTotalValue(vector<int>& nums, int k) {
@@ -18,3 +20,6 @@ public:
         return 1LL * k * (mx - mi);
     }
 };
+int main() {
+    return 0;
+}

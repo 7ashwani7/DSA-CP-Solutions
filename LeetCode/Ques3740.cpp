@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int minimumDistance(vector<int>& nums) {
@@ -42,3 +44,6 @@ public:
         return mini==1e9?-1:mini;
     }
 };
+int main() {
+    return 0;
+}

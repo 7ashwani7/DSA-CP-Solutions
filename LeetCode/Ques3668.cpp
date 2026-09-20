@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> recoverOrder(vector<int>& order, vector<int>& friends) {
@@ -30,7 +32,9 @@ public:
                 ans.push_back(x);
             }
         }
-        Ques
         return ans;
     }
 };
+int main() {
+    return 0;
+}

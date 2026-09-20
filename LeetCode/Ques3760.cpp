@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int maxDistinct(string s) {
@@ -8,3 +10,6 @@ public:
         return mp.size();
     }
 };
+int main() {
+    return 0;
+}

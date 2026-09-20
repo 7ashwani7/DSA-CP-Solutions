@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     bool hasSameDigits(string s) {
@@ -14,3 +16,6 @@ public:
      return s[0]==s[1]; 
     }
 };
+int main() {
+    return 0;
+}
