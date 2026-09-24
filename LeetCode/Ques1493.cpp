@@ -28,6 +28,26 @@ public:
         return maxLen-1;
     }
 };
+// OR 
+class Solution {
+public:
+    int longestSubarray(vector<int>& arr) {
+        int n = arr.size();
+        int count = 0;
+        int left = 0;
+        int ans = 0;
+        for (int right = 0; right < n; right++) {
+            if (arr[right] == 0)
+                count++;
+            while (count > 1) {
+                if (arr[left] == 0) count--;
+                left++;
+            }
+            ans = max(ans, right - left);
+        }
+        return ans;
+    }
+};
 int main() {
     return 0;
 }
