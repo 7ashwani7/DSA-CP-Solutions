@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Solution {
+  public:
+    bool isPowerofTwo(int n) {
+        // code here
+        if(n <= 0) return false;
+        while(n % 2 == 0) n /= 2;
+        return n == 1;
+    }
+};
+int main() {
+    return 0;
+}

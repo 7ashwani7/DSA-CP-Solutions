@@ -1,19 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
-  public:
-    void reverseArray(vector<int> &arr) {
-        // code here
-      // reverse(arr.begin(), arr.end());
-      int n= arr.size();
-      vector<int> v(n);
-      for(int i=0; i<n; i++){
-          v[i]=arr[n-1-i];
-      }
-      for(int i=0; i<n; i++){
-          arr[i] =v[i];
-      }
-    }
+	public:
+	void reverseArray(vector<int> &arr) {
+		// code here
+		int n = arr.size();
+		int i = 0, j = n - 1;
+		while (i < j) {
+			swap(arr[i], arr[j]);
+			i++;
+			j--;
+		}
+	}
 };
 int main() {
     return 0;
