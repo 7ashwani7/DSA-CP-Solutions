@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Solution {
+public:
+    int arraySign(vector<int>& nums) {
+        int n = nums.size();
+        int nev = 0;
+        for(int i = 0; i < n; i++){
+            if(nums[i] == 0){
+                return 0;
+            }
+            else if(nums[i] < 0){
+                nev++;
+            }
+        }
+        return (nev % 2 == 0) ? 1 : -1;
+    }
+};
+int main() {
+    return 0;
+}
